@@ -83,5 +83,15 @@ public class ECommerceDemo {
         for (Product product : recommendedProducts) {
             System.out.println(product);
         }
+
     }
+
+    // Вивести інформацію про користувачів
+        platform.displayUsers();
+
+    // Вивести інформацію про товари
+        platform.displayProducts();
+
+    // Вивести інформацію про замовлення
+        platform.displayOrders();
 }

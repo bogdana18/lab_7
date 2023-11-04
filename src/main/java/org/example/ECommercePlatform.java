@@ -143,6 +143,29 @@ public class ECommercePlatform {
         }
     }
 
+    public void displayUsers() {
+        for (User user : users.values()) {
+            System.out.println("User ID: " + user.getId());
+            System.out.println("Username: " + user.getUsername());
+        }
+    }
+
+    public void displayProducts() {
+        for (Product product : products.values()) {
+            System.out.println("Product ID: " + product.getId());
+            System.out.println("Product Name: " + product.getName());
+            System.out.println("Price: " + product.getPrice());
+            System.out.println("Stock: " + product.getStock());
+        }
+    }
+
+    public void displayOrders() {
+        for (Order order : orders.values()) {
+            System.out.println("Order ID: " + order.getId());
+            System.out.println("User ID: " + order.getUserId());
+        }
+    }
+
     public User getUserById(Integer userId) {
         return users.get(userId);
     }
