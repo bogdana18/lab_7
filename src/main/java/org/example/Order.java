@@ -1,4 +1,4 @@
-package org.example;
+package org.Usenko;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package org.example;
+package org.Usenko;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -51,6 +51,9 @@ public class User {
         }
     }
 
+    public void clearCart() {
+        cart.clear();
+    }
     public void modifyCart(Product product, int newQuantity) {
         cart.put(product, newQuantity);
     }

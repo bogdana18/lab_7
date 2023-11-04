@@ -1,5 +1,5 @@
-package org.example;
-import java.util.*;
+package org.Usenko;
+
 public class Product implements Comparable<Product> {
     private Integer id;
     private String name;
